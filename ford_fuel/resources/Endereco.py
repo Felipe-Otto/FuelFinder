@@ -4,10 +4,9 @@ from resources.utils import construtor_url
 from web_scraping import pesquisar_nome_posto
 
 
-
 class Endereco(Resource):
     def post(self):
-        data  = request.get_json()
+        data = request.get_json()
         rua = data.get('rua', '')
         bairro = data.get('bairro', '')
         cidade = data.get('cidade', '')
@@ -17,7 +16,6 @@ class Endereco(Resource):
         longitude = data.get('longitude', '')
         coordenadas = f'/@{latitude},{longitude}'
         endereco = f"{rua} - {bairro}, {cidade} - {estado}, {cep}"
-        print(endereco)
         url = construtor_url(endereco, coordenadas)
-        nome_posto = pesquisar_nome_posto(url)
+        nome_posto = pesquisar_nome_posto(url, cep)
         return {'Nome Posto': nome_posto}
