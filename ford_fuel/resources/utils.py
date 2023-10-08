@@ -7,7 +7,6 @@ def construtor_url(endereco, coordenada):
     return url
 
 def confirmador_posto(enderecos, cep):
-    print(enderecos)
     for chave, valor in enderecos.items():
         cep_sup = valor[-9:]
         if cep_sup == cep:

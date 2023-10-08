@@ -1,5 +1,7 @@
+import json
+from resources.connection import enviar_dados_para_bigquery, selecionar_id
 from flask_restful import Resource, reqparse
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from resources.utils import construtor_url
 from web_scraping import pesquisar_nome_posto
 
@@ -32,4 +34,18 @@ class Endereco(Resource):
         endereco = f"{rua} - {bairro}, {cidade} - {estado}, {cep}"
         url = construtor_url(endereco, coordenadas)
         nome_posto = pesquisar_nome_posto(url, cep)
-        return {'Nome Posto': nome_posto}
+
+        data = {
+            'idPosto': 3,
+            'Nome Posto': nome_posto,
+            'Rua': rua,
+            'Bairro': bairro,
+            'Cidade': cidade,
+            'Estado': estado,
+            'CEP': cep,
+            'latitude': latitude,
+            'longitude': longitude,
+        }
+        status = enviar_dados_para_bigquery(data)
+
+        return status

@@ -1,0 +1,13 @@
+dependencias:
+  Flask: 2.2.2
+  Flask-RESTful: 0.3.9
+  Jinja2: 3.1.2
+  MarkupSafe: 2.1.1
+  Pillow: 9.2.0
+  PySimpleGUI: 4.60.4
+  PySocks: 1.7.1
+  PyYAML: 6.0.1
+  SQLAlchemy: 1.4.36
+  Werkzeug: 2.2.2
+nome_do_projeto: web_scraping
+versao: '1.0'

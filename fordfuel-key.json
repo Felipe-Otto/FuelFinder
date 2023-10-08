@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fordfuel",
+  "private_key_id": "d855434bfee30196c7c244130ff00487acfe3681",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDGfpiV8AiYJdIx\nwBfOeDWm8sasGdaldavEmdT02nf/nhfOQL9sNhZkoZ2Ozo5bRZ+Yrq3YZydOl69p\nQkUhBTyDnG4LY956br3mMxqgYYzCCJqSXHYQ5EGqzLQLRRj/RS0wkZlQlXBxLzKB\nD/cLI/xkcZNxHS5Q0esbrBUsvnhmpy2V2p6yGf3LusIi56+Hjch+tsyplnqXB3Hv\n3CG6SjwU3DnVQPW/pwkzCxLOTfnD+YWWRPORCSM7AF42e4KvP2i9ClnccIaoWUQ7\nXVO2Xf7Cqyh6+QjY2kQa7ZrGLjnQ0ieeBIuu/VAJLof/NgOeZ3Te0y+J0DB9iv11\nplEz3kRbAgMBAAECggEACHByeVibpdMLnEeOPx40D4rIW4Vm0wv7cfx60K/OT4UV\nDM3uQ8y1krD0Ka4ji22Obpl3/7iuJaZyV4JGaEJGrhoKXbhirTJ50eUG5NcUeuur\nDy+movlUHL+J3a0Fko404nyWQoflWT1BFSwCGLqMyYRArn9u1tljTje4nvlxgENK\nARt4fDfcnAGYmcdoL2iAfvoA70QDKrgqejCqb0xLdR81kGCiNJSnz6kqmFxpBMlf\nK9gyog9uNLfgHV7OzC3vs9mKJTNSOJAjusS5w5nhcubLUVwLNDngg5uL8wT+JHBm\nHsUCtEJ1pjHZ2ENYu/tTWNKd4LP7YBdX+gWF27TjhQKBgQD2PUYmaop8AY4k4law\njUD0tkngeCX6qpIlHp7RAd15t3dqsheScEJw/ZicqoqKY/QCCcWecPHpinmYkavT\nIaE0iIuY6x2J3y1momO6iKPK435lD1D87jzlxStIjQx0RlRlt/dlmqx/UhFlpIGr\nGJ7ZCXzfUHGBZOxAzjEZ2DmKNQKBgQDOXNQ1GKgzly9hkLOGIgYnR216GFoo6XES\nME1HqKHAupsz3D3MCdILDJm28JfyxOZ9S/eUKzowpYeZVQ9+Mmz5ir+wgW2p+y9H\naRYsdITqYFbY+gZPTCSbbFbnVetxd1TbeGwK/LGeiYnhUlyqnl67s05L9VA9/biq\nPtunHk3mTwKBgDh2zIM6ow7UfHfQvvg1K9PxiPdEFdFpE6IXZ2ud9d9XRrbcp7MY\nsuOeA0TJhoM9cFKXUw2F8LMQ4dkubiw35fNZ7EjggSGAX7TNP/kiJAz+JZme7X9S\nUfyOPeKhFV4EUo4QpVZTJYL8mqioFGPbfXFfT5cVpzF4pwQlQ/UdM/SRAoGAHeNs\nCNStZ+t5vVPL7J147q91t71XMZ299rhwOPS/mL5uRDCd8rNpbJhCmzB1kX/bMkKS\ndS9dmjYfUaH0QH7lMa9a3CGi1H/A9ULPJ1ko9xlE+uAbkdihZLFoVNEo7KIv9CmY\n3G6E+0VIZw4axctyRRVPPckl+hSJbn70KVxGRBkCgYBY/AkyrSqYHrP0TJwcgWpH\nDF9KNnVo5jTNuzmnCcZS1WCZfKehJKGxPSe3f7Ym8hzGO2GYntqMu6DhJ6nlCpKK\nlBK2GJqBD6E2GIin86I9XPsxCOp0sqG8HrD0jeLslseIDgmEM9keqKTPSte8tt8Z\n1MiCEUzUee/1UT0jK4EgIA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "fordfuel-posto@fordfuel.iam.gserviceaccount.com",
+  "client_id": "110427923834850766805",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fordfuel-posto%40fordfuel.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -30,7 +30,6 @@ def pesquisar_nome_posto(url, cep):
             elemento = obter_elementos(driver, By.CLASS_NAME, 'DUwDvf ')[0].text
             if not elemento:
                 elemento = obter_elementos(driver, By.CLASS_NAME, 'hfpxzc ')[0].text
-                print(elemento)
             else:
                 return elemento
         postos = {}
