@@ -1,11 +1,10 @@
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options  # Importe as opções do Chrome aqui
 from resources.utils import confirmador_posto
-
 
 def obter_elementos(driver, by, value):
     try:
@@ -17,10 +16,13 @@ def obter_elementos(driver, by, value):
         print(f"Erro ao obter elementos: {e}")
         return []
 
-
 def pesquisar_nome_posto(url, cep):
     try:
-        driver = webdriver.Chrome()
+        # Configurar as opções do Chrome para modo headless
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")  # Executar em modo headless
+
+        driver = webdriver.Chrome(options=chrome_options)
         driver.get(url)
 
         elementos = obter_elementos(driver, By.CLASS_NAME, 'hfpxzc')
@@ -51,9 +53,6 @@ def pesquisar_nome_posto(url, cep):
     finally:
         driver.quit()
 
-
-
-
 def endereco_posto(driver, postos):
     link_falha = []
 
@@ -83,4 +82,3 @@ def endereco_posto(driver, postos):
                 except Exception as e:
                     print(f'Erro ao obter endereço: {e}')
         return postos
-
