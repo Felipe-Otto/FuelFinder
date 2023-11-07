@@ -2,7 +2,7 @@
   "type": "service_account",
   "project_id": "fordfuel",
   "private_key_id": "d855434bfee30196c7c244130ff00487acfe3681",
-  "private_key": # Key Here
+  "private_key": "Key Here"
   "client_email": "fordfuel-posto@fordfuel.iam.gserviceaccount.com",
   "client_id": "110427923834850766805",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
